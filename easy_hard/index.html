@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Marvel Hero Search</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+
+<body>
+  <div id="outer_div">
+    <h1> <span id="main_heading">Marvel Hero Search!</span> </h1>
+
+    <!-- The search box and instructions -->
+    <div id="search_area">
+      <div id="search_bar">
+        <input id="search_text" type="text" name="search" placeholder="Search & hit enter...">
+      </div>
+    </div>
+
+    <!-- The response area is where the table will be displayed -->
+    <div id="response_div">
+      <table id="myTable">
+        <tr>
+          <th>Image</th>
+          <th>Character Name</th>
+        </tr>
+      </table>
+
+      <p id="noEventsMsg">The previous search did not match any of the Marvel characters!</p>
+
+    </div>
+
+    <div id="response_text">
+      <h2> <span id="events_instructions">Select character name to display their events!</span> </h2>
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="assets/javascript/marvel.js"></script>
+  <!-- <script type="text/javascript" src="http://localhost:35729/livereload.js"></script> -->
+</body>
+
+</html>

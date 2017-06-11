@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+* {
+  /*border: 1px red dashed;*/
+}
+
+body {
+  background-image: url("../images/Marvel_characters.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: Dodgerblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;
+  color: white;
+  z-index: -1;
+}
+
+#outer_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 640px;
+  margin-top: 14px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 80px;
+  margin-top: 8px;
+  margin-bottom: -10px;
+}
+
+h2 {
+  font-family: arial;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 26px;
+}
+
+input[type=text] {
+  width: 280px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../images/searchicon.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+#noEventsMsg {
+  width: 600px;
+  height: 60px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: white;
+  border-radius: 6px 6px;
+  color: dodgerblue;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#response_div {
+  width: 600px;
+  height: 600px;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+
+#response_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+td:hover{
+  cursor: hand;
+}
+
+table {
+  border-color: red;
+  border-style: none;
+  border-collapse: collapse;
+  background-color: white;
+  color: dodgerblue;
+  text-align: center;
+  font-size: 24px;
+  border-width: 12px;
+  width: 100%;
+}
+
+a {
+  color: dodgerblue;
+}
+
+table img {
+  width: 100px;
+}

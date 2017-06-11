@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+* {
+  /*border: 1px red dashed;*/
+}
+
+body {
+  background-image: url("../images/marvel-characters.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: Dodgerblue;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 24px;
+  color: white;
+  height: 800px;
+  z-index: -1;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 11px;
+}
+
+#noEventsMsg {
+  width: 600px;
+  height: 60px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: white;
+  border-radius: 6px 6px;
+  color: dodgerblue;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#outer_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 720px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#search_text {
+  height: 32px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  color: white;
+  font-size: 32px;
+}
+
+#response_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 600px;
+}
+
+table {
+  border-color: red;
+  border-style: none;
+  border-collapse: collapse;
+  border-radius: 6px 6px;
+  background-color: white;
+  color: dodgerblue;
+  text-align: center;
+  font-size: 18px;
+  border-width: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+a {
+  color: dodgerblue;
+}
+
+table img {
+  width: 100px;
+}
+
+#div_table2 {
+  width: 600px;
+  height: 600px;
+}
+
+#myTable2 {
+  display: flex;
+  flex-direction: column;
+}
