@@ -20,7 +20,7 @@
     //request event data
     let my_var = $.get(search_url, function(data) {
       $.each(data.data.results, function(index, value) {
-        $('#myTable2').append('<tr><td>' + value.title + '</td><td>' + value.creators.available + '</td><td><p>' + value.description + '</p><td/></tr>');
+        $('#myTable2').append('<tr><td>' + value.title + '</td><td>' + value.characters.available + '</td><td><p>' + value.description + '</p><td/></tr>');
       }) //1st each
     });
 
